@@ -1,4 +1,4 @@
-# LegendOfMelda
+# Legend Of Melda
 This is a parody of the original Legend of Zelda game. Nintendo, please don't sue us.
 
 Seriously, please don't take anything in this game serious.
