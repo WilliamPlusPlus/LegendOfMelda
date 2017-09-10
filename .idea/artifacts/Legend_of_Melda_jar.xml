@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Legend of Melda:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Legend_of_Melda_jar</output-path>
+    <root id="archive" name="Legend of Melda.jar">
+      <element id="module-output" name="Legend of Zelda" />
+    </root>
+  </artifact>
+</component>
