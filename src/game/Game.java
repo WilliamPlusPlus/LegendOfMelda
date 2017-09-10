@@ -1,5 +1,6 @@
-package com.ThreeDudes.game;
+package game;
 
+import game.InputHandler;
 import gfx.*;
 
 import java.awt.*;
@@ -32,6 +33,8 @@ public class Game extends Canvas implements Runnable {
 
     private Screen screen;
 
+    public InputHandler input;
+
     public Game() {
         setMinimumSize( new Dimension( WIDTH* SCALE, HEIGHT*SCALE));
         setMaximumSize( new Dimension( WIDTH*SCALE, HEIGHT*SCALE));
@@ -53,6 +56,7 @@ public class Game extends Canvas implements Runnable {
 
     public void init() {
         screen = new Screen(WIDTH, HEIGHT, new SpriteSheet("/sprite_sheet.png"));
+        input = new InputHandler(this);
     }
 
     private synchronized void start() {
@@ -66,11 +70,11 @@ public class Game extends Canvas implements Runnable {
 
     public void tick() {
         tickCount++;
-        //screen.xOffset++;
-        screen.yOffset--;
-        /*for (int i = 0; i < pixels.length; i++) {
-            pixels[i] = i + tickCount;
-        }*/
+        if (input.forward.isPressed()) { screen.yOffset--; }
+        if (input.backward.isPressed()) { screen.yOffset++; }
+        if (input.right.isPressed()) { screen.xOffset++; }
+        if (input.left.isPressed()) { screen.xOffset--; }
+        //screen.xOffset--;
     }
 
     public void render() {
