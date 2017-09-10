@@ -66,8 +66,8 @@ public class Game extends Canvas implements Runnable {
 
     public void tick() {
         tickCount++;
-        screen.xOffset++;
-        screen.yOffset++;
+        //screen.xOffset++;
+        screen.yOffset--;
         /*for (int i = 0; i < pixels.length; i++) {
             pixels[i] = i + tickCount;
         }*/
