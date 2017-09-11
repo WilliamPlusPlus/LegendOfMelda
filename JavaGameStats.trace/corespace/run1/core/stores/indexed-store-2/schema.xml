@@ -1,0 +1,32 @@
+
+<schema name="activity-monitor-system" topology="XRTD50_CC22_R_TypeID">
+    <column engineeringType="XRStartTimeTypeID" engineeringName="Start Time" mnemonic="start" topologyField="XRTraceRelativeTimestampFieldID"></column>
+    <column engineeringType="XRDurationTypeID" engineeringName="Duration" mnemonic="duration" topologyField="XRDurationFieldID"></column>
+    <column engineeringType="XRPercentageTypeID" engineeringName="System Load %" mnemonic="cpu-system-load"></column>
+    <column engineeringType="XRPercentageTypeID" engineeringName="Total Load %" mnemonic="cpu-total-load"></column>
+    <column engineeringType="XRPercentageTypeID" engineeringName="User Load %" mnemonic="cpu-user-load"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Data Read" mnemonic="disk-bytes-read"></column>
+    <column engineeringType="XRSizeInBytesPerSecondTypeID" engineeringName="Data Read/sec" mnemonic="disk-bytes-read-per-second"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Data Written" mnemonic="disk-bytes-written"></column>
+    <column engineeringType="XRSizeInBytesPerSecondTypeID" engineeringName="Data Written/sec" mnemonic="disk-bytes-written-per-second"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Reads In" mnemonic="disk-read-ops"></column>
+    <column engineeringType="XREventsPerSecondTypeID" engineeringName="Reads In/sec" mnemonic="disk-read-ops-per-second"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Writes Out" mnemonic="disk-write-ops"></column>
+    <column engineeringType="XREventsPerSecondTypeID" engineeringName="Writes Out/sec" mnemonic="disk-write-ops-per-second"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="App Memory" mnemonic="memory-app"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Cached Files" mnemonic="memory-cached-files"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Compressed" mnemonic="memory-compressed"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Memory Used" mnemonic="memory-physical-used"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Wired Memory" mnemonic="memory-wired"></column>
+    <column engineeringType="XRNetworkSizeInBytesTypeID" engineeringName="Data Received" mnemonic="net-bytes-in"></column>
+    <column engineeringType="XRNetworkSizeInBytesPerSecondTypeID" engineeringName="Data Received/sec" mnemonic="net-bytes-in-per-second"></column>
+    <column engineeringType="XRNetworkSizeInBytesTypeID" engineeringName="Data Sent" mnemonic="net-bytes-out"></column>
+    <column engineeringType="XRNetworkSizeInBytesPerSecondTypeID" engineeringName="Data Sent/sec" mnemonic="net-bytes-out-per-second"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Packets In" mnemonic="net-packets-in"></column>
+    <column engineeringType="XREventsPerSecondTypeID" engineeringName="Packets In/sec" mnemonic="net-packets-in-per-second"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Packets Out" mnemonic="net-packets-out"></column>
+    <column engineeringType="XREventsPerSecondTypeID" engineeringName="Packets Out/sec" mnemonic="net-packets-out-per-second"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Processes" mnemonic="total-processes"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Threads" mnemonic="total-threads"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Swap Used" mnemonic="vm-swap-used"></column>
+</schema>

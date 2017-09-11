@@ -1,0 +1,28 @@
+
+<schema name="activity-monitor-process-live" topology="XRTD50_CC22_R_TypeID">
+    <column engineeringType="XRStartTimeTypeID" engineeringName="Start Time" mnemonic="start" topologyField="XRTraceRelativeTimestampFieldID"></column>
+    <column engineeringType="XRDurationTypeID" engineeringName="Duration" mnemonic="duration" topologyField="XRDurationFieldID"></column>
+    <column engineeringType="XRProcessTypeID" engineeringName="Process Name" mnemonic="process" topologyField="XRCategory1FieldID"></column>
+    <column engineeringType="XRProcessTypeID" engineeringName="Responsible Process" mnemonic="responsible-process" topologyField="XRCategory2FieldID"></column>
+    <column engineeringType="XRProcessIDTypeID" engineeringName="Process ID" mnemonic="pid"></column>
+    <column engineeringType="XRProcessUIDTypeID" engineeringName="User Name" mnemonic="uid"></column>
+    <column engineeringType="XRSystemCPUPercentageTypeID" engineeringName="% CPU" mnemonic="cpu-percent"></column>
+    <column engineeringType="XRDurationOnCPUTypeID" engineeringName="CPU Time" mnemonic="cpu-total"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="# Threads" mnemonic="thread-count"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="# Ports" mnemonic="mach-port-count"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Real Mem" mnemonic="memory-real"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Real Private Mem" mnemonic="memory-real-private"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Real Shared Mem" mnemonic="memory-real-shared"></column>
+    <column engineeringType="XRCPUArchNameTypeID" engineeringName="Kind" mnemonic="arch-kind"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Sudden Termination" mnemonic="sudden-termination"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Sandbox" mnemonic="sandbox"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Restricted" mnemonic="restricted"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Idle Wake Ups" mnemonic="idle-wakeups"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="App Nap" mnemonic="app-nap"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Purgeable Mem" mnemonic="memory-purgeable"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Memory" mnemonic="memory"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Compressed Mem" mnemonic="memory-compressed"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Disk Writes (B)" mnemonic="disk-bytes-written"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Disk Reads (B)" mnemonic="disk-bytes-read"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Preventing Sleep" mnemonic="preventing-sleep"></column>
+</schema>

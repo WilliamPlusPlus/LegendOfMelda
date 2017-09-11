@@ -1,0 +1,17 @@
+
+<schema name="activity-monitor-process-ledger" topology="XRT50_C22_TypeID">
+    <column engineeringType="XRStartTimeTypeID" engineeringName="First Seen" mnemonic="start" topologyField="XRTraceRelativeTimestampFieldID"></column>
+    <column engineeringType="XRProcessTypeID" engineeringName="Process Name" mnemonic="process" topologyField="XRCategory1FieldID"></column>
+    <column engineeringType="XRRecordedEventTimestampTypeID" engineeringName="Last Seen" mnemonic="end"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Alive" mnemonic="alive"></column>
+    <column engineeringType="XRProcessIDTypeID" engineeringName="Process ID" mnemonic="pid"></column>
+    <column engineeringType="XRProcessTypeID" engineeringName="Responsible Process" mnemonic="responsible-process"></column>
+    <column engineeringType="XRProcessUIDTypeID" engineeringName="User Name" mnemonic="uid"></column>
+    <column engineeringType="XRDurationOnCPUTypeID" engineeringName="CPU Time" mnemonic="cpu-total"></column>
+    <column engineeringType="XRCPUArchNameTypeID" engineeringName="Kind" mnemonic="arch-kind"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Sandbox" mnemonic="sandbox"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Restricted" mnemonic="restricted"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Idle Wake Ups" mnemonic="idle-wakeups"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Disk Writes (B)" mnemonic="disk-bytes-written"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Disk Reads (B)" mnemonic="disk-bytes-read"></column>
+</schema>

@@ -1,0 +1,41 @@
+
+<schema name="sysmon-process" topology="XRT50_C22_TypeID">
+    <column engineeringType="XRStartTimeTypeID" engineeringName="Timestamp" mnemonic="time" topologyField="XRTraceRelativeTimestampFieldID"></column>
+    <column engineeringType="XRProcessTypeID" engineeringName="Process Name" mnemonic="process" topologyField="XRCategory1FieldID"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Process Recently Died" mnemonic="recently-died"></column>
+    <column engineeringType="XRCPUArchNameTypeID" engineeringName="Kind" mnemonic="arch-kind"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Sudden Termination" mnemonic="sudden-termination"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Sandbox" mnemonic="sandbox"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="Restricted" mnemonic="restricted"></column>
+    <column engineeringType="XRBooleanTypeID" engineeringName="App Nap" mnemonic="app-nap"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Context Switch" mnemonic="context-switch"></column>
+    <column engineeringType="XRSystemCPUPercentageTypeID" engineeringName="% CPU" mnemonic="cpu-percent"></column>
+    <column engineeringType="XRDurationOnCPUTypeID" engineeringName="System Time" mnemonic="cpu-total-system"></column>
+    <column engineeringType="XRDurationOnCPUTypeID" engineeringName="User Time" mnemonic="cpu-total-user"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Disk Reads (B)" mnemonic="disk-bytes-read"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Disk Writes (B)" mnemonic="disk-bytes-written"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Faults" mnemonic="faults"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Interrupt Wake Ups" mnemonic="interrupt-wakeups"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Mach Ports" mnemonic="mach-port-count"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Anonymous Mem" mnemonic="memory-anonymous"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Compressed Mem" mnemonic="memory-compressed"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Purgeable Mem" mnemonic="memory-purgeable"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Real Private Mem" mnemonic="memory-real-private"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Real Shared Mem" mnemonic="memory-real-shared"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Resident Size" mnemonic="memory-resident-size"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Virtual Size" mnemonic="memory-virtual-size"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Msg Received" mnemonic="msg-received"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Msg Sent" mnemonic="msg-sent"></column>
+    <column engineeringType="XRProcessGroupIDTypeID" engineeringName="Group ID" mnemonic="pgid"></column>
+    <column engineeringType="XRProcessIDTypeID" engineeringName="Parent PID" mnemonic="ppid"></column>
+    <column engineeringType="XRProcessIDTypeID" engineeringName="Process ID" mnemonic="pid"></column>
+    <column engineeringType="XRProcessStatusTypeID" engineeringName="Process Status" mnemonic="proc-status"></column>
+    <column engineeringType="XRProcessIDTypeID" engineeringName="Responsible PID" mnemonic="responsible-pid"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Sys Calls Mach" mnemonic="sys-calls-mach"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Sys Calls Unix" mnemonic="sys-calls-unix"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Threads" mnemonic="thread-count"></column>
+    <column engineeringType="XRProcessUIDTypeID" engineeringName="User Name" mnemonic="uid"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Page Ins" mnemonic="vm-page-ins"></column>
+    <column engineeringType="XRProcessTypeID" engineeringName="Parent Process" mnemonic="parent-process"></column>
+    <column engineeringType="XRProcessTypeID" engineeringName="Responsible Process" mnemonic="responsible-process"></column>
+</schema>

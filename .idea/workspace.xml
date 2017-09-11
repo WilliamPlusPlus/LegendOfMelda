@@ -21,8 +21,8 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+            <state relative-caret-position="269">
+              <caret line="133" column="13" lean-forward="true" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Game#0;class#Game#0" expanded="false" />
@@ -34,7 +34,7 @@
       <file leaf-file-name="InputHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/InputHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
+            <state relative-caret-position="240">
               <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -56,8 +56,8 @@
       <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gfx/Screen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-517">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="-344">
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -108,18 +108,18 @@
         <option value="$PROJECT_DIR$/src/com/ThreeDudes/Screen.java" />
         <option value="$PROJECT_DIR$/src/com/ThreeDudes/Game.java" />
         <option value="$PROJECT_DIR$/src/com/ThreeDudes/com/ThreeDudes/game/Game.java" />
-        <option value="$PROJECT_DIR$/src/gfx/Screen.java" />
         <option value="$PROJECT_DIR$/src/gfx/SpriteSheet.java" />
         <option value="$PROJECT_DIR$/src/game/KeyInput.java" />
         <option value="$PROJECT_DIR$/src/game/InputHander.java" />
         <option value="$PROJECT_DIR$/src/InputHandler.java" />
         <option value="$PROJECT_DIR$/src/game/InputHandler.java" />
+        <option value="$PROJECT_DIR$/src/gfx/Screen.java" />
         <option value="$PROJECT_DIR$/src/game/Game.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="638" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -138,6 +138,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,9 +188,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +291,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -306,7 +306,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -332,6 +332,100 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Game#0;class#Game#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gfx/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/InputHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gfx/SpriteSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Game#0;class#Game#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/InputHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gfx/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gfx/SpriteSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -473,25 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/InputHander.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gfx/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/InputHander.java" />
     <entry file="file://$PROJECT_DIR$/src/game/InputHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
+        <state relative-caret-position="240">
           <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -509,10 +588,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gfx/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+        <state relative-caret-position="269">
+          <caret line="133" column="13" lean-forward="true" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Game#0;class#Game#0" expanded="false" />

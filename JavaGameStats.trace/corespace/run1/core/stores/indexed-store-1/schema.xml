@@ -1,0 +1,24 @@
+
+<schema name="sysmon-system" topology="XRT50_C22_TypeID">
+    <column engineeringType="XRStartTimeTypeID" engineeringName="Timestamp" mnemonic="time" topologyField="XRTraceRelativeTimestampFieldID"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Swap Used" mnemonic="vm-swap-used"></column>
+    <column engineeringType="XRPercentageTypeID" engineeringName="System Load %" mnemonic="cpu-system-load"></column>
+    <column engineeringType="XRPercentageTypeID" engineeringName="Total Load %" mnemonic="cpu-total-load"></column>
+    <column engineeringType="XRPercentageTypeID" engineeringName="User Load %" mnemonic="cpu-user-load"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Data Read" mnemonic="disk-bytes-read"></column>
+    <column engineeringType="XRSizeInBytesTypeID" engineeringName="Data Written" mnemonic="disk-bytes-written"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Reads In" mnemonic="disk-read-ops"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Writes Out" mnemonic="disk-write-ops"></column>
+    <column engineeringType="XRNetworkSizeInBytesTypeID" engineeringName="Data Received" mnemonic="net-bytes-in"></column>
+    <column engineeringType="XRNetworkSizeInBytesTypeID" engineeringName="Data Sent" mnemonic="net-bytes-out"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Packets In" mnemonic="net-packets-in"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Packets Out" mnemonic="net-packets-out"></column>
+    <column engineeringType="XREventCountTypeID" engineeringName="Total Threads" mnemonic="total-threads"></column>
+    <column engineeringType="XRSizeInPagesTypeID" engineeringName="VM Compressor Page Count" mnemonic="vm-compressor-page-count"></column>
+    <column engineeringType="XRSizeInPagesTypeID" engineeringName="VM Ext Page Count" mnemonic="vm-ext-page-count"></column>
+    <column engineeringType="XRSizeInPagesTypeID" engineeringName="VM Free Count" mnemonic="vm-free-count"></column>
+    <column engineeringType="XRSizeInPagesTypeID" engineeringName="VM Int Page Count" mnemonic="vm-int-page-count"></column>
+    <column engineeringType="XRSizeInPagesTypeID" engineeringName="VM Purgeable Count" mnemonic="vm-purgeable-count"></column>
+    <column engineeringType="XRSizeInPagesTypeID" engineeringName="VM Used Count" mnemonic="vm-used-count"></column>
+    <column engineeringType="XRSizeInPagesTypeID" engineeringName="VM Wire Count" mnemonic="vm-wire-count"></column>
+</schema>
