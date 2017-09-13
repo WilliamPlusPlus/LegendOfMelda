@@ -11,8 +11,8 @@ public class Screen {
     public int xOffset = 0;
     public int yOffset = 0;
 
-    public int width = 100;
-    public int height = 100;
+    public int width = 0;
+    public int height = 0;
 
     public SpriteSheet sheet;
 
